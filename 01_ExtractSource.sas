@@ -1,7 +1,7 @@
 /*Uncomment CAS Session start and terminate for running in SAS Studio. Job Execution Handles for Batch.*/
 cas casauto sessopts=(caslib='casuser');
 
-/*Adding Comment in EG*/
+/*Adding Comment in GITHUB Again*/
 caslib _all_ assign;
 libname sesslib cas caslib=COVID19;
 
