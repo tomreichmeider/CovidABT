@@ -4,6 +4,7 @@ cas casauto sessopts=(caslib='casuser');
 caslib _all_ assign;
 libname sesslib cas caslib=COVID19;
 
+/*Updating the Files Being Read*/
 filename cov_wea "/opt/sas/data/COVID19-Targets/covid_weather.csv";
 filename cov_mob "/opt/sas/data/COVID19-Targets/covid_mobility.csv";
 filename cov_pop "/opt/sas/data/COVID19-Targets/county_population.csv";
