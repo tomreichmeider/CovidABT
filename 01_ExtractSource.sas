@@ -9,6 +9,7 @@ libname sesslib cas caslib=COVID19;
 filename cov_wea "/opt/sas/data/COVID19-Targets/covid_weather.csv";
 filename cov_mob "/opt/sas/data/COVID19-Targets/covid_mobility.csv";
 filename cov_pop "/opt/sas/data/COVID19-Targets/county_population.csv";
+filename cov_pop "/opt/sas/data/COVID19-Targets/county_cases.csv";
 
 
 proc cas;
