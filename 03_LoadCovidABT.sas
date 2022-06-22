@@ -1,3 +1,4 @@
+/*Modify Load Code*/
 proc fedsql sessref=casauto;
 	create table COVID19.COVID19_ABT as
 	select Combined_Key, Date, Country_Region as Country, Province_State as State, Admin2 as County, Population, PST045212 as CenPopulation, Confirmed, Deaths, ConfirmedDelta, DeathsDelta, 
