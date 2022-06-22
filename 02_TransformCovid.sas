@@ -1,4 +1,5 @@
 /*Data Step for Reading Weather Data*/
+/*Adding a Comment in Github*/
 data COVID19.cov_wea;
   keep Combined_Key Date LastDate Country_Region Province_State Admin2 Population Confirmed Deaths maxtempF mintempF avgtempF sunHour uvIndex 
   DaytempF DayprecipMM Dayhumidity Daypressure DaypressureInches DayHeatIndexF DayuvIndex NighttempF NightprecipMM Nighthumidity 
