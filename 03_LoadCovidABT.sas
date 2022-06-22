@@ -33,4 +33,4 @@ data _NULL_;
    time_slept=sleep(5,1);
 run;
 
-/*cas casauto terminate;*/
+cas casauto terminate;
