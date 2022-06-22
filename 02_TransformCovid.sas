@@ -18,6 +18,7 @@ data COVID19.cov_wea;
   if Date >= MDY(3,1,2020) AND NOT(Combined_Key IN('QUEENS,NEW YORK,US', 'KINGS,NEW YORK,US', 'BRONX,NEW YORK,US', 'RICHMOND,NEW YORK,US'));
 run;
 
+/*Modify Renames*/
 data COVID19.cov_wea;
 	set COVID19.cov_wea;
 	if upcase(Combined_Key) = 'NEW YORK CITY,NEW YORK,US' then 
