@@ -1,4 +1,4 @@
-/*Uncomment CAS Session start and terminate for running in SAS Studio. Job Execution Handles for Batch.*/
+/*Uncomment CAS Session start and terminate for running in SAS Studio. Job Execution Handles for Batch. Change*/
 cas casauto sessopts=(caslib='casuser');
 
 /*Adding Comment in GITHUB Again*/
