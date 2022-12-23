@@ -1,5 +1,5 @@
 /*Uncomment CAS Session start and terminate for running in SAS Studio. Job Execution Handles for Batch. Change2*/
-cas casauto sessopts=(caslib='casuser');
+cas casauto sessopts=(caslib='publicremote');
 
 /*Adding Comment in GITHUB Again*/
 caslib _all_ assign;
